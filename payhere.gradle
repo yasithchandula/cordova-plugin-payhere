@@ -2,10 +2,10 @@ repositories {
         google()
         jcenter()
         maven {
-            url  "https://dl.bintray.com/payhere/payhere-android-payment"
+            url 'https://jitpack.io'
         }
 }
 
 dependencies {
-    implementation 'lk.payhere.sdk:android-payment-sdk:2.0.24'
+    implementation 'com.github.PayHereDevs:payhere-android-sdk:v3.0.16'
 }
